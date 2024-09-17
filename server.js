@@ -8,7 +8,7 @@ const port = 3000;
 app.use(express.json());
 app.use(cors());
 
-const apiKey = '4a0b6873f6edb002733d61f357556d7a'; // Replace with your actual API key
+const apiKey = '0db490a5bc79bd83767affca9666e2c3'; // Replace with your actual API key
 const weatherApiUrl = 'http://api.openweathermap.org/data/2.5/weather';
 
 app.post('/getWeather', async (req, res) => {
